@@ -89,7 +89,7 @@ const App: React.FC = () => {
         <div className="relative z-10 container mx-auto px-6 text-white max-w-6xl">
           <div className="mb-6 flex items-center gap-4 animate-fade-in-up">
             <div className="w-12 h-px bg-yellow-500"></div>
-            <span className="text-yellow-500 text-[10px] font-black uppercase tracking-[0.5em]">Expertos en Coordinación y Liderazgo</span>
+            <span className="text-yellow-500 text-[10px] font-black uppercase tracking-[0.5em]">Expertos en Coordinación y Liderazgo.</span>
           </div>
           <h1 className="text-6xl md:text-9xl font-black mb-10 leading-[0.9] tracking-tighter animate-fade-in-up">
             {content.hero.title}
@@ -249,6 +249,7 @@ const App: React.FC = () => {
                       <option>Formación de Líderes</option>
                       <option>Coordinación de Equipos</option>
                       <option>Productividad Organizacional</option>
+                      <option>Customer Experience</option>
                     </select>
                   </div>
 
@@ -276,7 +277,7 @@ const App: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-12 mb-20">
             <Logo className="h-8" />
             <div className="text-[10px] font-black uppercase tracking-[0.3em] text-white/40">
-              Expertos en Coordinación y Liderazgo
+              Expertos en Coordinación y Liderazgo.
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-12 border-t border-white/5">
